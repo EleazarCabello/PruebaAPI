@@ -3,5 +3,10 @@
 
 ## Instalacion
 ---------------------
-# npm install Frases
+# npm install frasesbiblia
 ---------------------
+
+const frases = require('frases')
+
+frases.obtiene()
+
