@@ -8,5 +8,5 @@
 
 const frases = require('frases')
 
-frases.obtiene()
+frases.obtenerFrase();
 

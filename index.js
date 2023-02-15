@@ -1,4 +1,4 @@
-const Frases=[
+const frases=[
     "Más fe y menos miedo.",
     "Todo lo puedo en Cristo que me fortalece.",
     "Dios tiene un plan que lleva tu nombre.",
@@ -9,8 +9,9 @@ const Frases=[
 
 function obtenerFrase(){
     let indice = Math.floor(Math.random() * 5)
-    return Frases(indice)
+    return frases[indice]
 }
+console.log(obtenerFrase());
 
-module.exports.obtenerFrase=obtenerFrase;
+module.exports.obtenerFrase=obtenerFrase();
 //console.log(module)
