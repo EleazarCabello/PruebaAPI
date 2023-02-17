@@ -11,7 +11,7 @@ function obtenerFrase(){
     let indice = Math.floor(Math.random() * 5)
     return frases[indice]
 }
-console.log(obtenerFrase());
+//console.log(obtenerFrase());
 
-module.exports.obtenerFrase=obtenerFrase();
+module.exports.obtenerFrase=obtenerFrase;
 //console.log(module)
