@@ -1,12 +1,12 @@
 # Frases de la Biblia
+Te da una frase popular de la biblia de manera aleatoria.
 
+# Instalacion
+---------------------------------
+ npm install frasesbiblia
+------------------------------------
 
-## Instalacion
----------------------
-# npm install frasesbiblia
----------------------
-
-## Implementacion
+# Implementacion
 const frases = require('frases')
 
 frases.obtenerFrase();
