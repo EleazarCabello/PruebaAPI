@@ -6,6 +6,7 @@
 # npm install frasesbiblia
 ---------------------
 
+## Implementacion
 const frases = require('frases')
 
 frases.obtenerFrase();
